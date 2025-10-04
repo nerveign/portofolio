@@ -8,8 +8,8 @@ export const HeroContent = () => {
         <div className="text-center lg:text-start lg:w-[472px]">
           <div className="relative">
             <div>
-              <Badge className="flex justify-center mx-auto" asChild variant={'outline'}>
-                <p>📖 Love to learning something</p>
+              <Badge className="flex justify-center mx-auto bg-white" asChild variant={'outline'}>
+                <p>📖 Love to learn something</p>
               </Badge>
               <img className="absolute -right-1 lg:-right-3 top-[-12px]" src="/me-no.svg" alt="me" />
             </div>
