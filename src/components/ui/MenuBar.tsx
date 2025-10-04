@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { ItemList } from './ItemList';
 import { HamburgerToggle } from './HamburgerToggle';
+import { Home, Phone, Briefcase } from 'lucide-react';
 
 export const MenuBar = () => {
   const [open, setOpen] = useState(false);
@@ -14,16 +15,15 @@ export const MenuBar = () => {
           <div className="text-sm font-semibold text-blue-500">Menu</div>
         </div>
       </DropdownMenuTrigger>
-
       <DropdownMenuContent sideOffset={4} className="w-48 lg:hidden gap-2 flex flex-col z-50">
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList route="/" icon="./home.svg" heading="Home" text="Back to home" />
+          <ItemList route="/" icon={<Home className="size-5 text-blue-500" />} heading="Home" text="Back to home" />
         </DropdownMenuItem>
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList route="/works" icon="./briefcase.svg" heading="Works" text="List of projects" />
+          <ItemList route="/works" icon={<Briefcase className="size-5 text-blue-500" />} heading="Works" text="List of projects" />
         </DropdownMenuItem>
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList route="/contact" icon="./phone.svg" heading="Contact" text="Contact detail" />
+          <ItemList route="/contact" icon={<Phone className="size-5 text-blue-500" />} heading="Contact" text="Contact detail" />
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
