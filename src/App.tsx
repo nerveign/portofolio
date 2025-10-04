@@ -1,15 +1,21 @@
 import { Layout } from './components/ui/Layout';
-import { Footer } from './components/ui/Footer';
-import { Navbar } from './components/ui/Navbar';
+import { HeroSection } from './components/ui/HeroSection';
+import { WorksSection } from './components/ui/WorksSection';
+import { ContactSection } from './components/ui/ContactSection';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-        <Layout />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<HeroSection />} />
+            <Route path="/works" element={<WorksSection />} />
+            <Route path="/contact" element={<ContactSection />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

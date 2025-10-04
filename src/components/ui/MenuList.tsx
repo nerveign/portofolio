@@ -1,14 +1,22 @@
+import { NavLink } from 'react-router-dom';
+
 export const MenuList = () => {
   return (
     <ul className="flex gap-6 text-zinc-500">
-      <li className="text-blue-500 font-medium ">
-        <a href="/">Home</a>
+      <li>
+        <NavLink to="/" end className={({ isActive }) => (isActive ? 'text-blue-500' : 'hover:text-zinc-600')}>
+          Home
+        </NavLink>
       </li>
       <li>
-        <a href="/works">Works</a>
+        <NavLink to="/works" className={({ isActive }) => (isActive ? 'text-blue-500' : 'hover:text-zinc-600')}>
+          Works
+        </NavLink>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'text-blue-500' : 'hover:text-zinc-600')}>
+          Contact
+        </NavLink>
       </li>
     </ul>
   );

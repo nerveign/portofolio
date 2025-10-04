@@ -15,15 +15,15 @@ export const MenuBar = () => {
         </div>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent sideOffset={16} className="w-48 lg:hidden gap-2 flex flex-col z-50">
+      <DropdownMenuContent sideOffset={4} className="w-48 lg:hidden gap-2 flex flex-col z-50">
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList icon="./home.svg" heading="Home" text="Back to home" />
+          <ItemList route="/" icon="./home.svg" heading="Home" text="Back to home" />
         </DropdownMenuItem>
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList icon="./briefcase.svg" heading="Works" text="List of projects" />
+          <ItemList route="/works" icon="./briefcase.svg" heading="Works" text="List of projects" />
         </DropdownMenuItem>
         <DropdownMenuItem className="text-base cursor-pointer">
-          <ItemList icon="./phone.svg" heading="Contact" text="Contact detail" />
+          <ItemList route="/contact" icon="./phone.svg" heading="Contact" text="Contact detail" />
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
