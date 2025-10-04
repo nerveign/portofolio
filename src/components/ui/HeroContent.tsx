@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 export const HeroContent = () => {
   return (
     <>
-      <div>
+      <div className="animate-fade-in">
         <div className="text-center lg:text-start lg:w-[472px]">
           <div className="relative">
             <div>
