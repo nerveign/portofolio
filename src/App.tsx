@@ -1,4 +1,4 @@
-import { Layout } from 'lucide-react';
+import { Layout } from './components/ui/Layout';
 import { Footer } from './components/ui/Footer';
 import { Navbar } from './components/ui/Navbar';
 

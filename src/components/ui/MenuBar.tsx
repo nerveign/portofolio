@@ -1,13 +1,21 @@
+import { useState } from 'react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { ItemList } from './ItemList';
+import { HamburgerToggle } from './HamburgerToggle';
 
 export const MenuBar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false} open={open} onOpenChange={setOpen}>
       <DropdownMenuTrigger asChild>
-        <div className="focus:outline-none cursor-pointer border bg-white border-slate-200 rounded-md px-4 py-1">Menu</div>
+        <div className="cursor-pointer flex gap-2 bg-gradient-to-br from-blue-200/40 to-zinc-400/40 backdrop-blur-sm  px-4 py-2 items-center rounded-lg">
+          <HamburgerToggle isOpen={open} />
+          <div className="text-sm font-semibold">Menu</div>
+        </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-48 md:hidden gap-2 flex flex-col">
+
+      <DropdownMenuContent sideOffset={16} className="w-48 lg:hidden gap-2 flex flex-col z-50">
         <DropdownMenuItem className="text-base cursor-pointer">
           <ItemList icon="./home.svg" heading="Home" text="Back to home" />
         </DropdownMenuItem>
