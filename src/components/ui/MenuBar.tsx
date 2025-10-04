@@ -9,9 +9,9 @@ export const MenuBar = () => {
   return (
     <DropdownMenu modal={false} open={open} onOpenChange={setOpen}>
       <DropdownMenuTrigger asChild>
-        <div className="cursor-pointer flex gap-2 bg-gradient-to-br from-blue-200/40 to-zinc-400/40 backdrop-blur-sm  px-4 py-2 items-center rounded-lg">
+        <div className="cursor-pointer select-none flex gap-2 bg-gradient-to-br from-blue-200/40 to-blue-300/40 backdrop-blur-sm  px-4 py-2 items-center rounded-lg">
           <HamburgerToggle isOpen={open} />
-          <div className="text-sm font-semibold">Menu</div>
+          <div className="text-sm font-semibold text-blue-500">Menu</div>
         </div>
       </DropdownMenuTrigger>
 

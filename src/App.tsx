@@ -1,8 +1,8 @@
-import { Layout } from './components/ui/Layout';
-import { HeroSection } from './components/ui/HeroSection';
-import { WorksSection } from './components/ui/WorksSection';
-import { ContactSection } from './components/ui/ContactSection';
+import { Layout } from 'lucide-react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HomeLayout } from './components/layout/HomeLayout';
+import { WorksLayout } from './components/layout/WorksLayout';
+import { ContactLayout } from './components/layout/ContactsLayout';
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
-            <Route path="/" element={<HeroSection />} />
-            <Route path="/works" element={<WorksSection />} />
-            <Route path="/contact" element={<ContactSection />} />
+            <Route path="/" element={<HomeLayout />} />
+            <Route path="/works" element={<WorksLayout />} />
+            <Route path="/contact" element={<ContactLayout />} />
           </Route>
         </Routes>
       </BrowserRouter>
