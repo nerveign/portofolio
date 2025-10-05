@@ -3,7 +3,7 @@ import { ContactContent } from './ContactContent';
 export const ContactSection = () => {
   return (
     <>
-      <div className="mx-6 mt-24 lg:mt-36 mb-10 lg:mb-16">
+      <div className="mx-6 mt-22 lg:mt-36 mb-10 lg:mb-16">
         <div className="animate-fade-in">
           <ContactContent />
         </div>
