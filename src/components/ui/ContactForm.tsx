@@ -15,17 +15,17 @@ export const ContactForm = () => {
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <Label htmlFor="name">Name</Label>
-              <Input className="text-sm lg:text-base" id="name" type="text" placeholder="Enter your name" />
+              <Input className="text-sm bg-[#F6F6F6]" id="name" type="text" placeholder="Enter your name" />
             </div>
 
             <div className="flex flex-col gap-2">
               <Label htmlFor="email">Email</Label>
-              <Input className="text-sm lg:text-base" id="email" type="email" placeholder="yourmail@example.com" />
+              <Input className="text-sm bg-[#F6F6F6]" id="email" type="email" placeholder="yourmail@example.com" />
             </div>
 
             <div className="flex flex-col gap-2">
               <Label htmlFor="message">Message</Label>
-              <Textarea className="text-sm lg:text-base" id="message" placeholder="How can we help?" />
+              <Textarea className="text-sm h-20 bg-[#F6F6F6] resize-none" id="message" placeholder="How can we help?" />
             </div>
           </div>
           <Button
