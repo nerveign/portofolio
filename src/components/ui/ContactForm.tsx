@@ -6,7 +6,7 @@ import { Button } from './button';
 export const ContactForm = () => {
   return (
     <>
-      <div className="w-full lg:w-[400px] p-6 bg-white rounded-xl border-1">
+      <div className="w-[27rem] mx-auto md:mx-0 p-6 bg-white rounded-xl border-1">
         <div>
           <h3 className="text-xl md:text-2xl font-semibold">Get in Touch</h3>
           <p className="mt-2 text-sm lg:text-base  text-zinc-500">You can reach me anytime</p>
@@ -15,17 +15,17 @@ export const ContactForm = () => {
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <Label htmlFor="name">Name</Label>
-              <Input className="text-sm bg-[#F6F6F6]" id="name" type="text" placeholder="Enter your name" />
+              <Input className="text-sm bg-slate-50" id="name" type="text" placeholder="Enter your name" />
             </div>
 
             <div className="flex flex-col gap-2">
               <Label htmlFor="email">Email</Label>
-              <Input className="text-sm bg-[#F6F6F6]" id="email" type="email" placeholder="yourmail@example.com" />
+              <Input className="text-sm bg-slate-50" id="email" type="email" placeholder="yourmail@example.com" />
             </div>
 
             <div className="flex flex-col gap-2">
               <Label htmlFor="message">Message</Label>
-              <Textarea className="text-sm h-20 bg-[#F6F6F6] resize-none" id="message" placeholder="How can we help?" />
+              <Textarea className="text-sm h-24 bg-slate-50 resize-none" id="message" placeholder="How can we help?" />
             </div>
           </div>
           <Button
