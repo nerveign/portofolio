@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 const data = {
   imageSrc: 'portofolio-1.png',
   title: 'PureCycle Mobile UI',
-  description: 'Build user-flow for recycling applications, design and prototyping the UI.</',
+  description: 'Build user-flow for recycling applications, design and prototyping the UI.',
   label: ['Strategy', 'Design'],
 };
 
