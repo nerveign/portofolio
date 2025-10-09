@@ -9,7 +9,7 @@ export const WorksHeading = () => {
           <p className="text-sm lg:text-base">A collection of my favorite projects where I tried out ideas, learned new things, and had fun creating.</p>
         </div>
         <div className="flex justify-between mt-10 mb-2 text-zinc-500 text-sm">
-          <p>©{year}</p>
+          <p>© {year}</p>
           <p>List of my projects</p>
         </div>
       </div>
