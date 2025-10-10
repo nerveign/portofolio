@@ -1,4 +1,4 @@
-import { HeroContent } from './HeroContent';
+import { HeroContent } from './hero-content';
 
 export const HeroSection = () => {
   return (

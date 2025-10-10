@@ -1,4 +1,4 @@
-import { ContactContent } from './ContactContent';
+import { ContactContent } from './contact-content';
 
 export const ContactSection = () => {
   return (

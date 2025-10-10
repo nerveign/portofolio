@@ -1,4 +1,4 @@
-import { ContactSection } from '../ui/ContactSection';
+import { ContactSection } from '../ui/contact-section';
 
 export const ContactLayout = () => {
   return (

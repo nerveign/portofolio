@@ -1,5 +1,5 @@
-import { Contact } from './Contact';
-import { ContactForm } from './ContactForm';
+import { Contact } from './contact-heading';
+import { ContactForm } from './contact-form';
 
 export const ContactContent = () => {
   return (

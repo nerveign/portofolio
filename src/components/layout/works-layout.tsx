@@ -1,4 +1,4 @@
-import { WorksSection } from '../ui/WorksSection';
+import { WorksSection } from '../ui/works-section';
 
 export const WorksLayout = () => {
   return (

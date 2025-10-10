@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomeLayout } from './components/layout/HomeLayout';
-import { WorksLayout } from './components/layout/WorksLayout';
-import { ContactLayout } from './components/layout/ContactsLayout';
-import { MainLayout } from './components/layout/MainLayout';
+import { HomeLayout } from './components/layout/home-layout';
+import { WorksLayout } from './components/layout/works-layout';
+import { ContactLayout } from './components/layout/contact-layout';
+import { MainLayout } from './components/layout/main-layout';
 
 function App() {
   return (

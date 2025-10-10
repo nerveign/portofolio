@@ -1,4 +1,4 @@
-import { HeroSection } from '../ui/HeroSection';
+import { HeroSection } from '../ui/hero-section';
 
 export const HomeLayout = () => {
   return (

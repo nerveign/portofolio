@@ -1,6 +1,6 @@
 import { AvatarLogo } from './AvatarLogo';
 import { MenuBar } from './MenuBar';
-import { MenuList } from './MenuList';
+import { MenuList } from './menu-list';
 
 export const Navbar = () => {
   return (

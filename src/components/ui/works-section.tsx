@@ -1,4 +1,4 @@
-import { WorksContent } from './WorksContent';
+import { WorksContent } from './works-content';
 
 export const WorksSection = () => {
   return (

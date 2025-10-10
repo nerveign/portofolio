@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
-import { ItemList } from './ItemList';
-import { HamburgerToggle } from './HamburgerToggle';
+import { ItemList } from './item-list';
+import { HamburgerToggle } from './hamburger-toggle';
 import { Home, Phone, Briefcase } from 'lucide-react';
 
 export const MenuBar = () => {

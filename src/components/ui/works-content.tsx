@@ -1,5 +1,5 @@
-import { WorksCards } from './WorksCards';
-import { WorksHeading } from './WorksHeading';
+import { WorksCards } from './works-cards';
+import { WorksHeading } from './works-heading';
 
 export const WorksContent = () => {
   return (
