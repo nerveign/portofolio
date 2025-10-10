@@ -17,7 +17,7 @@ export const data: Project[] = [
   {
     imageURL: `${url}/portofolio-2.png`,
     title: 'UNNES Career Mobile UI',
-    description: 'lorem ipsum dolor sit amet',
+    description: 'This application prototype combines job and career vacancy listings with online course offerings in a unified platform.',
     label: ['UI', 'UX', 'Prototyping'],
   },
 ];
