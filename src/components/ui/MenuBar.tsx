@@ -12,7 +12,7 @@ export const MenuBar = () => {
       <DropdownMenuTrigger asChild>
         <div className="cursor-pointer select-none flex gap-2 bg-gradient-to-br from-blue-200/40 to-blue-300/40 backdrop-blur-sm dark:bg-gray-700 px-4 py-2 items-center rounded-lg">
           <HamburgerToggle isOpen={open} />
-          <div className="text-sm font-semibold text-blue-500 dark:text-zinc-300">Menu</div>
+          <div className="text-sm font-semibold text-blue-500 dark:text-white">Menu</div>
         </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent sideOffset={4} className="w-48 lg:hidden gap-2 flex flex-col z-50 dark:bg-[#181818]/90 backdrop-blur-lg">
