@@ -10,10 +10,10 @@ type ItemListProps = {
 export const ItemList = ({ icon: Icon, heading, text, route }: ItemListProps) => {
   return (
     <Link to={route} className="flex gap-4 items-center">
-      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-200/40 to-zinc-300/40 backdrop-blur-sm flex justify-center items-center border border-white/40">{Icon}</div>
+      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-200/40 to-zinc-300/40 dark:bg-[#161616] backdrop-blur-sm flex justify-center items-center border border-white/40">{Icon}</div>
       <div>
         <h4>{heading}</h4>
-        <p className="text-zinc-500 text-sm">{text}</p>
+        <p className="text-zinc-500 dark:text-[#A5A3A3] text-sm">{text}</p>
       </div>
     </Link>
   );

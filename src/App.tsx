@@ -3,19 +3,22 @@ import { HomeLayout } from './components/layout/home-layout';
 import { WorksLayout } from './components/layout/works-layout';
 import { ContactLayout } from './components/layout/contact-layout';
 import { MainLayout } from './components/layout/main-layout';
+import { ThemeProvider } from './components/context/theme-provider';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<MainLayout />}>
-            <Route path="/" element={<HomeLayout />} />
-            <Route path="/works" element={<WorksLayout />} />
-            <Route path="/contact" element={<ContactLayout />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <ThemeProvider defaultTheme="light" storageKey="ui-theme">
+        <BrowserRouter>
+          <Routes>
+            <Route element={<MainLayout />}>
+              <Route path="/" element={<HomeLayout />} />
+              <Route path="/works" element={<WorksLayout />} />
+              <Route path="/contact" element={<ContactLayout />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
     </>
   );
 }

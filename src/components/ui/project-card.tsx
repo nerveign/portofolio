@@ -17,12 +17,12 @@ export const ProjectCard = ({ imageURL, title, description, label }: ProjectProp
         <div className="flex flex-col lg:w-[500px] justify-between">
           <div>
             <h3 className="text-xl lg:text-2xl font-semibold">{title}</h3>
-            <p className="text-zinc-500 mt-3 lg:mt-4">{description}</p>
+            <p className="text-zinc-500 mt-3 lg:mt-4 dark:text-[#A5A3A3]">{description}</p>
           </div>
           <div className="flex gap-2 mt-4 lg:mt-0 ">
             {label.map((item) => (
               <>
-                <Badge className="py-2 px-2 rounded-lg border-zinc-300" variant={'outline'}>
+                <Badge className="py-2 px-2 rounded-lg border-zinc-300 dark:border-zinc-600 dark:text-[#A5A3A3]" variant={'outline'}>
                   {item}
                 </Badge>
               </>

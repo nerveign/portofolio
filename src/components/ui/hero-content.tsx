@@ -9,17 +9,17 @@ export const HeroContent = () => {
         <div className="text-center w-96 md:w-[454px] lg:text-start lg:w-[472px]">
           <div className="relative">
             <div>
-              <Badge className="flex justify-center mx-auto bg-white" asChild variant={'outline'}>
-                <p>📖 Love to learn something</p>
+              <Badge className="flex justify-center mx-auto bg-white dark:bg-zinc-800" asChild variant={'outline'}>
+                <p className="dark:text-zinc-300">📖 Love to learn something</p>
               </Badge>
-              <img className="absolute -right-2 md:right-[2px] lg:-right-3 top-[-12px]" src="/image/me-no.svg" alt="me" />
+              <img className="absolute -right-2 md:right-[2px] lg:-right-3 top-[-12px] select-none" src="/image/me-no.svg" alt="me" />
             </div>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mt-3 lg:mt-4 text-center uppercase">Fathurrizqo</h1>
-          <p className="mt-3 lg:mt-5 text-sm md:text-base text-zinc-600 text-center">On my way to persue happines. I love computer science, religion and also philosophy.</p>
+          <p className="mt-3 lg:mt-5 text-sm md:text-base text-zinc-600 text-center dark:text-[#A5A3A3]">On my way to persue happines. I love computer science, religion and also philosophy.</p>
         </div>
         <div className="flex justify-center gap-3 mt-5 lg:mt-6">
-          <Button className="bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1">
+          <Button className="bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white">
             <a href="/Fathurrizqo_Resume2025.pdf" download={'Fathurrizqo_Resume2025.pdf'}>
               Download CV
             </a>
