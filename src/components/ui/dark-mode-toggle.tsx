@@ -6,6 +6,11 @@ export const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
   const [isDark, setIsDark] = useState(false);
 
+  const checkTheme = () => {
+    return theme === 'dark' ? 'light' : 'dark';
+  };
+
+  // Check User's theme preference
   useEffect(() => {
     const checkDarkMode = () => {
       if (theme === 'system') {
@@ -28,7 +33,7 @@ export const ThemeToggle = () => {
   }, [theme]);
 
   const handleToggle = () => {
-    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    const newTheme = checkTheme();
     setTheme(newTheme);
   };
 
