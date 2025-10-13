@@ -1,4 +1,4 @@
-import { AvatarLogo } from './AvatarLogo';
+import { AvatarLogo } from './avatar-logo';
 import { MenuBar } from './menubar';
 import { MenuList } from './menu-list';
 import { ThemeToggle } from './dark-mode-toggle';
