@@ -4,6 +4,7 @@ import { ItemList } from './item-list';
 import { HamburgerToggle } from './hamburger-toggle';
 import { Home, Phone, Briefcase } from 'lucide-react';
 
+// Update
 export const MenuBar = () => {
   const [open, setOpen] = useState(false);
 

@@ -3,6 +3,7 @@ import { MenuBar } from './menubar';
 import { MenuList } from './menu-list';
 import { ThemeToggle } from './dark-mode-toggle';
 
+// Update
 export const Navbar = () => {
   return (
     <>
