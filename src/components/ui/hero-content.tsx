@@ -13,7 +13,7 @@ export const HeroContent = () => {
               <Badge className="flex justify-center mx-auto bg-white dark:bg-zinc-800" asChild variant={'outline'}>
                 <p className="dark:text-zinc-300">📖 Love to learn something</p>
               </Badge>
-              <img className="absolute -right-2 md:right-[2px] lg:-right-3 top-[-12px] select-none" src="/image/me-no.svg" alt="me" />
+              <img className="absolute -right-2 md:right-[2px] lg:-right-3 top-[-40px] md:top-[-22px] select-none" src="/image/me-no.svg" alt="me" />
             </div>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mt-3 lg:mt-4 text-center uppercase">Fathurrizqo</h1>
