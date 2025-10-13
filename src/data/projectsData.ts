@@ -1,6 +1,6 @@
 type Project = {
   imageURL: string;
-  title: string;
+  title: string;    
   description: string;
   label: string[];
 };
@@ -18,7 +18,7 @@ export const data: Project[] = [
     imageURL: `${url}/portofolio-2.png`,
     title: 'UNNES Career Mobile UI',
     description: 'This application prototype combines job and career vacancy listings with online course offerings in a unified platform.',
-    label: ['UI', 'UX', 'Prototyping'],
+    label: ['UI', 'UX', 'Prototyping'],   
   },
   {
     imageURL: `${url}/portofolio-3.png`,
