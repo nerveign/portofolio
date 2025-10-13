@@ -4,6 +4,7 @@ type Project = {
   description: string;
   label: string[];
 };
+
 const url: string = '/works';
 
 export const data: Project[] = [
