@@ -6,7 +6,7 @@ import { Button } from './button';
 export const ContactForm = () => {
   return (
     <>
-      <div className="w-[27rem] mx-auto md:mx-0 p-6 bg-white dark:bg-[#181818] rounded-xl border-1">
+      <div className="w-[27rem] mx-auto md:mx-0 p-6 bg-white dark:bg-[#191919] rounded-xl border-1">
         <div>
           <h3 className="text-xl md:text-2xl font-semibold">Get in Touch</h3>
           <p className="mt-2 text-sm lg:text-base  text-zinc-500 dark:text-[#A5A3A3]">You can reach me anytime</p>

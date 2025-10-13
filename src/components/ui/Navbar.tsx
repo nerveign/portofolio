@@ -8,7 +8,7 @@ export const Navbar = () => {
     <>
       <nav className="w-full relative z-50">
         <div className="flex justify-center w-full relative">
-          <div className="mx-auto fixed lg:top-1 lg:rounded-xl border-b-1 lg:border-1 w-full lg:w-3/4 px-6 h-16 lg:h-[72px] flex justify-between items-center backdrop-blur-lg bg-white/80 dark:bg-[#181818]/80">
+          <div className="mx-auto fixed lg:top-1 lg:rounded-xl border-b-1 lg:border-1 w-full lg:w-3/4 px-6 h-16 lg:h-[72px] flex justify-between items-center backdrop-blur-lg bg-white/80 dark:bg-[#191919]/80">
             <div>
               <AvatarLogo />
             </div>
