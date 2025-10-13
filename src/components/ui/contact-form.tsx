@@ -2,6 +2,7 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from './button';
+import { Send } from 'lucide-react';
 
 export const ContactForm = () => {
   return (
@@ -32,6 +33,7 @@ export const ContactForm = () => {
             className="w-full mt-6 bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white"
             type="submit"
           >
+            <Send />
             Send
           </Button>
         </form>
