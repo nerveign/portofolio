@@ -16,7 +16,7 @@ export const MenuBar = () => {
           <div className="text-sm font-semibold text-blue-500 dark:text-white">Menu</div>
         </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent sideOffset={4} className="w-48 lg:hidden gap-2 flex flex-col z-50 dark:bg-[#181818]/90 backdrop-blur-lg">
+      <DropdownMenuContent sideOffset={4} className="w-48 lg:hidden gap-2 flex flex-col z-50 backdrop-blur-lg bg-white/80 dark:bg-[#181818]/90">
         <DropdownMenuItem className="text-base cursor-pointer">
           <ItemList route="/" icon={<Home className="size-5 text-blue-500 dark:text-white" />} heading="Home" text="Back to home" />
         </DropdownMenuItem>
