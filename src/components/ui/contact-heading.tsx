@@ -2,7 +2,7 @@ import { Mail } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <div className="p-2">
+    <div>
       <div>
         <h2 className="font-semibold text-xl lg:text-2xl">Reach Me!</h2>
         <div className="mt-2 lg:mt-3 text-zinc-600 dark:text-[#A5A3A3]">
