@@ -7,7 +7,7 @@ export const HeroContent = () => {
   return (
     <>
       <div className="animate-fade-in">
-        <div className="text-center w-96 md:w-[454px] lg:text-start lg:w-[472px]">
+        <div className="text-center md:w-[454px] lg:text-start lg:w-[472px]">
           <div className="relative">
             <div>
               <Badge className="flex justify-center mx-auto bg-white dark:bg-zinc-800" asChild variant={'outline'}>
