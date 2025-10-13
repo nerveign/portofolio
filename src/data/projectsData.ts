@@ -33,6 +33,12 @@ export const data: Project[] = [
   },
   {
     imageURL: `${url}/portofolio-5.png`,
+    title: 'Friskay Cat Landing Page',
+    description: 'Simple landing page for exercise building UI.',
+    label: ['Frontend', 'ReactJS'],
+  },
+  {
+    imageURL: `${url}/portofolio-6.png`,
     title: 'Zustand To Do List App',
     description: 'Simple to do list app with Zustand state management application.',
     label: ['ReactJS', 'Zustand'],
