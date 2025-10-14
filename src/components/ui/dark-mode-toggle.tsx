@@ -12,6 +12,11 @@ export const ThemeToggle = () => {
 
   // Check User's theme preference
   useEffect(() => {
+    if (theme) {
+      localStorage.setItem('theme', theme);
+      document.documentElement.classList.toggle('dark', theme === 'dark');
+    }
+
     const checkDarkMode = () => {
       if (theme === 'system') {
         const systemIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
