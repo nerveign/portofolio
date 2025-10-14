@@ -20,13 +20,13 @@ export const HeroContent = () => {
           <p className="mt-3 lg:mt-5 text-sm md:text-base text-zinc-600 text-center dark:text-[#A5A3A3]">On my way to persue happines. I love computer science, religion and also philosophy.</p>
         </div>
         <div className="flex justify-center gap-3 mt-5 lg:mt-6">
-          <Button className="bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white flex gap-1">
+          <Button className="bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white flex gap-1 font-medium">
             <ArrowDownToLine />
             <a href="/Fathurrizqo_Resume2025.pdf" download={'Fathurrizqo_Resume2025.pdf'}>
               Download CV
             </a>
           </Button>
-          <Button className="cursor-pointer bg-white dark:bg-[#181818] font-medium" variant={'outline'}>
+          <Button className="cursor-pointer bg-white dark:bg-[#181818]" variant={'outline'}>
             <Link to={'/works'}>Works</Link>
           </Button>
         </div>
