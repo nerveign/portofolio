@@ -30,7 +30,7 @@ export const ContactForm = () => {
             </div>
           </div>
           <Button
-            className="w-full mt-6 bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white"
+            className="w-full mt-6 bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white font-medium"
             type="submit"
           >
             <Send />

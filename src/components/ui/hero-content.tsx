@@ -26,7 +26,7 @@ export const HeroContent = () => {
               Download CV
             </a>
           </Button>
-          <Button className="cursor-pointer bg-white dark:bg-[#181818]" variant={'outline'}>
+          <Button className="cursor-pointer bg-white dark:bg-[#181818] font-medium" variant={'outline'}>
             <Link to={'/works'}>Works</Link>
           </Button>
         </div>
