@@ -1,6 +1,5 @@
 import { year } from '@/lib/getYear';
 
-// update
 export const Footer = () => {
   return (
     <>
