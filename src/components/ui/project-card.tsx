@@ -10,7 +10,7 @@ type ProjectProps = {
 export const ProjectCard = ({ imageURL, title, description, label }: ProjectProps) => {
   return (
     <>
-      <div className="w-full flex flex-col lg:flex-row gap-6 pb-10 border-b mb-4 lg:mb-5">
+      <div className="w-full flex flex-col lg:flex-row gap-6 pb-10 border-b mb-5">
         <div>
           <img className="border-1 w-full lg:w-[600px]" src={imageURL} alt="card-project" />
         </div>
