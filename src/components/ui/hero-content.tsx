@@ -27,7 +27,7 @@ export const HeroContent = () => {
           <div className="flex justify-center gap-3 mt-5 lg:mt-6">
             <Button className="bg-[linear-gradient(178deg,#A5D8FF_-172.89%,#0068F0_206.02%)] hover:bg-[linear-gradient(178deg,_#60BAFF_-172.89%,_#0068F0_206.02%)] border-blue-500 cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 dark:text-white flex gap-1 font-medium">
               <ArrowDownToLine />
-              <a href="/Fathurrizqo_Resume2025.pdf" download={'Fathurrizqo_Resume2025.pdf'}>
+              <a href="/Fathurrizqo-Resume.pdf" download={'Fathurrizqo-Resume.pdf'}>
                 Download CV
               </a>
             </Button>
