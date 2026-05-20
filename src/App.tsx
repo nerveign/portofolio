@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomeLayout } from './components/layout/home-layout';
 import { WorksLayout } from './components/layout/works-layout';
 import { ContactLayout } from './components/layout/contact-layout';
 import { MainLayout } from './components/layout/main-layout';
 import { ThemeProvider } from './components/context/theme-provider';
+import { HomeLayout } from './components/layout/home-layout';
 
 function App() {
   return (
