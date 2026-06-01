@@ -15,7 +15,7 @@ export const sendEmail = async (message: EmailTemplate) => {
       email: message.email,
       message: message.body,
     });
-    console.log(message);
+
     toast.success('Message sent successfully');
   } catch (error) {
     toast.error('Failed to send message');
