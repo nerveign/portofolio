@@ -24,7 +24,7 @@ export const data: Project[] = [
     imageURL: `${url}/portofolio-1.png`,
     title: 'PureCycle Mobile UI',
     description: 'Designed and prototyped a mobile application focused on recyclable waste management. Created user flows and interface designs to provide an intuitive user experience.',
-    label: ['UI/UX', 'Prototyping'],
+    label: ['UI/UX', 'Prototype'],
   },
   {
     imageURL: `${url}/portofolio-5.png`,
