@@ -9,12 +9,19 @@ type EmailTemplate = {
 
 export const sendEmail = async (message: EmailTemplate) => {
   try {
-    await emailjs.send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, {
-      title: 'Contact Form Message',
-      name: message.name,
-      email: message.email,
-      message: message.body,
-    });
+    await emailjs.send(
+      import.meta.env.VITE_SERVICE_ID,
+      import.meta.env.VITE_TEMPLATE_ID,
+      {
+        title: 'Contact Form Message',
+        name: message.name,
+        email: message.email,
+        message: message.body,
+      },
+      {
+        publicKey: import.meta.env.VITE_PUBLIC_KEY,
+      },
+    );
 
     console.log({
       serviceId: import.meta.env.VITE_SERVICE_ID,
