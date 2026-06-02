@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div>
       <div>
-        <h2 className="font-semibold text-3xl lg:text-5xl">Contact Me</h2>
+        <h2 className="font-semibold text-2xl lg:text-5xl">Contact Me</h2>
         <div className="mt-3 lg:mt-4 text-zinc-600 dark:text-[#A5A3A3]">
           <div className="xl:max-w-5/6">
             <p>For other queries please get in touch with me via email or complete the form.</p>
