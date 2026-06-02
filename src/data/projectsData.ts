@@ -11,7 +11,7 @@ export const data: Project[] = [
   {
     imageURL: `${url}/Portofolio-BJG.png`,
     title: 'BJG Point of Sales',
-    description: 'Managed operational and transaction processes, developed modules, APIs, and database functionalities to support business workflows and transaction management.',
+    description: 'Managed operational, transaction processes, developed modules, APIs, and database functionalities to support business workflows and transaction management.',
     label: ['ExpressJS', 'PostgreSQL', 'Redis'],
   },
   {
