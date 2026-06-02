@@ -20,9 +20,9 @@ export const ProjectCard = ({ imageURL, title, description, label }: ProjectProp
             <p className="text-zinc-500 mt-3 text-sm md:text-base lg:mt-4 dark:text-[#A5A3A3]">{description}</p>
           </div>
           <div className="flex gap-2 mt-4 lg:mt-0 ">
-            {label.map((item) => (
+            {label.map((item, index) => (
               <>
-                <Badge className="py-2 px-2 rounded-lg border-zinc-300 dark:border-zinc-600 dark:text-[#A5A3A3]" variant={'outline'}>
+                <Badge className="py-2 px-2 rounded-lg border-zinc-300 dark:border-zinc-600 dark:text-[#A5A3A3]" variant={'outline'} key={index}>
                   {item}
                 </Badge>
               </>

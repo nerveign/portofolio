@@ -11,31 +11,25 @@ export const data: Project[] = [
   {
     imageURL: `${url}/portofolio-1.png`,
     title: 'PureCycle Mobile UI',
-    description: 'Build user-flow for recycling applications, design and prototyping the UI.',
-    label: ['UI/UX', 'Prototyping'],
-  },
-  {
-    imageURL: `${url}/portofolio-2.png`,
-    title: 'UNNES Career Mobile UI',
-    description: 'This application prototype combines job and career vacancy listings with online course offerings in a unified platform.',
+    description: 'Designed and prototyped a mobile application focused on recyclable waste management. Created user flows and interface designs to provide an intuitive user experience.',
     label: ['UI/UX', 'Prototyping'],
   },
   {
     imageURL: `${url}/portofolio-3.png`,
     title: 'React Tetris Game',
-    description: 'Browser-based implementation of the classic Tetris puzzle game built entirely with ReactJS and powered by Vite for development.',
+    description: 'Built a browser-based implementation of the classic Tetris game using React. Implemented core gameplay mechanics, scoring, and keyboard controls.',
     label: ['Front End', 'ReactJS'],
   },
   {
     imageURL: `${url}/portofolio-4.png`,
     title: 'Cashmate Financial Management',
-    description: 'Financial management app, build with ReactJS + ExpressJS.',
-    label: ['Full Stack', 'ReactJS', 'ExpressJS', 'MongoDB'],
+    description: 'Developed a full-stack personal finance management application using React, Express, and MongoDB. Features include income and expense tracking, financial dashboards, and Excel report exports.',
+    label: ['Full Stack', 'ReactJS', 'ExpressJS'],
   },
   {
     imageURL: `${url}/portofolio-5.png`,
     title: 'Friskay Cat Landing Page',
-    description: 'Simple landing page for exercise building UI.',
+    description: 'Converted a design mockup into a responsive landing page using React and TypeScript. Focused on pixel-accurate implementation and responsive user interfaces.',
     label: ['Front End', 'ReactJS', 'Typescript'],
   },
 ];
