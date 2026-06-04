@@ -4,7 +4,7 @@ import { Toaster } from '../ui/sonner';
 export const ContactLayout = () => {
   return (
     <>
-      <div className="flex h-screen justify-center items-center mt-8 md:mt-0">
+      <div className="flex h-screen justify-center items-center mt-8 lg:mt-0">
         <ContactSection />
         <Toaster />
       </div>
