@@ -9,12 +9,6 @@ const url: string = '/works';
 
 export const data: Project[] = [
   {
-    imageURL: `${url}/Portofolio-BJG.png`,
-    title: 'BJG Point of Sales',
-    description: 'Managed operational, transaction processes, developed modules, APIs, and database functionalities to support business workflows and transaction management.',
-    label: ['ExpressJS', 'PostgreSQL', 'Redis'],
-  },
-  {
     imageURL: `${url}/Portofolio-Haloop.png`,
     title: 'Haloop.AI Contact Management',
     description: 'Developed a full-stack contact management platform that helps users organize and manage professional relationships more effectively.',
