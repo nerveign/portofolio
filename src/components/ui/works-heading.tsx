@@ -10,7 +10,6 @@ export const WorksHeading = () => {
         </div>
         <div className="flex justify-between mt-10 mb-2 text-zinc-500 text-sm">
           <p>© {year}</p>
-          <p>List of my projects</p>
         </div>
       </div>
     </>
