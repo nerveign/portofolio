@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { Badge } from './badge';
+import { ProjectCardSkeleton } from './project-card-skeleton';
 
 type ProjectProps = {
   imageURL: string;
@@ -8,11 +10,14 @@ type ProjectProps = {
 };
 
 export const ProjectCard = ({ imageURL, title, description, label }: ProjectProps) => {
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   return (
     <>
-      <div className="w-full flex flex-col lg:flex-row gap-6 pb-10 border-b mb-5 ">
+      {!isImageLoaded && <ProjectCardSkeleton />}
+      <div className={`w-full flex flex-col lg:flex-row gap-6 pb-10 border-b mb-5 ${isImageLoaded ? '' : 'hidden'}`}>
         <div>
-          <img className="border-1 w-full lg:w-[600px] rounded-lg" src={imageURL} alt="card-project" />
+          <img className="border-1 w-full lg:w-[600px] rounded-lg" src={imageURL} alt="card-project" onLoad={() => setIsImageLoaded(true)} />
         </div>
         <div className="flex flex-col lg:w-[500px] justify-between">
           <div>
