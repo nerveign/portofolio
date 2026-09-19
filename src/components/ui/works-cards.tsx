@@ -6,9 +6,7 @@ export const WorksCards = () => {
     <>
       <div className="mt-6 w-full">
         {data?.map((item) => (
-          <>
-            <ProjectCard imageURL={item.imageURL} title={item.title} description={item.description} label={item.label} />
-          </>
+          <ProjectCard key={item.title} imageURL={item.imageURL} title={item.title} description={item.description} label={item.label} />
         ))}
       </div>
     </>
